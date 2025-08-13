@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishi's Gym — Train Smarter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script defer src="./assets/script.js"></script>
+    <meta
+      name="description"
+      content="Rishi's is a modern fitness club offering strength, cardio, yoga, and personal training. Join now and transform your body and mind."
+    />
+  </head>
+  <body>
+    <!-- Header / Nav -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="logo">
+          <span class="logo-mark">PF</span>
+          <span class="logo-text">Rishi's</span>
+        </a>
+        <nav class="nav" id="primaryNav" aria-label="Primary">
+          <a href="#programs">Programs</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact" class="btn btn--sm">Contact</a>
+        </nav>
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle menu"
+          aria-controls="primaryNav"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Train smarter.<br /><span class="accent">Get stronger.</span></h1>
+          <p>
+            Premium equipment, expert coaches, and a supportive community.
+            Everything you need to hit your next PR.
+          </p>
+          <div class="hero-cta">
+            <a href="#pricing" class="btn btn--primary">Join Now</a>
+            <a href="#programs" class="btn btn--ghost">Explore Programs</a>
+          </div>
+          <div class="hero-trust">
+            <div class="pill">Open 5am–11pm</div>
+            <div class="pill">Personal Training</div>
+            <div class="pill">Student Discounts</div>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1600&auto=format&fit=crop"
+            alt="Athlete lifting weights"
+            loading="eager"
+          />
+        </div>
+      </div>
+      <div class="hero-stats container">
+        <div class="stat">
+          <strong>2.5k+</strong><span>Active Members</span>
+        </div>
+        <div class="stat"><strong>40+</strong><span>Weekly Classes</span></div>
+        <div class="stat"><strong>15</strong><span>Expert Trainers</span></div>
+        <div class="stat"><strong>24/7</strong><span>Support</span></div>
+      </div>
+    </section>
+
+    <!-- Programs -->
+    <section id="programs" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Programs built for <span class="accent">real results</span></h2>
+          <p>
+            Whether you’re a beginner or a pro, choose a track that fits your
+            goals.
+          </p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card program">
+            <img
+              src="https://images.unsplash.com/photo-1554344728-77cf90d9ed26?q=80&w=1560&auto=format&fit=crop"
+              alt="Strength training"
+              alt="Strength training"
+            />
+            <div class="card-body">
+              <h3>Strength & Conditioning</h3>
+              <p>
+                Progressive overload, compound lifts, and structured cycles to
+                build lean muscle and power.
+              </p>
+              <ul class="checklist">
+                <li>Dedicated squat/bench/deadlift racks</li>
+                <li>Periodized plans</li>
+                <li>Coach feedback</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card program">
+            <img src="assets/hiit.jpeg" alt="HIIT class" />
+            <div class="card-body">
+              <h3>HIIT & Conditioning</h3>
+              <p>
+                Fast-paced circuits that torch calories and boost endurance in
+                just 45 minutes.
+              </p>
+              <ul class="checklist">
+                <li>Small group sessions</li>
+                <li>Heart-rate tracking</li>
+                <li>Scalable to all levels</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card program">
+            <img
+              src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1560&auto=format&fit=crop"
+              alt="Yoga class"
+            />
+            <div class="card-body">
+              <h3>Yoga & Mobility</h3>
+              <p>
+                Recover better with flows that improve flexibility, posture, and
+                stress management.
+              </p>
+              <ul class="checklist">
+                <li>Morning & evening classes</li>
+                <li>Certified instructors</li>
+                <li>Beginner friendly</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section section--tinted">
+      <div class="container">
+        <div class="section-head">
+          <h2>Simple, transparent <span class="accent">pricing</span></h2>
+          <p>Pick a plan and start training today. Cancel anytime.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card price">
+            <div class="badge">Starter</div>
+            <h3>₹999<span>/mo</span></h3>
+            <ul class="feature-list">
+              <li>Gym floor access</li>
+              <li>Locker room & showers</li>
+              <li>1 group class/week</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block"
+              >Get Started</a
+            >
+          </article>
+          <article class="card price price--featured">
+            <div class="badge">Most Popular</div>
+            <h3>₹1,799<span>/mo</span></h3>
+            <ul class="feature-list">
+              <li>Unlimited classes</li>
+              <li>Full equipment access</li>
+              <li>Welness assessment</li>
+              <li>Nutrition guide</li>
+            </ul>
+            <a href="#contact" class="btn btn--light btn--block">Choose Plan</a>
+          </article>
+          <article class="card price">
+            <div class="badge">Pro</div>
+            <h3>₹3,499<span>/mo</span></h3>
+            <ul class="feature-list">
+              <li>All benefits in Popular</li>
+              <li>2 PT sessions/month</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block">Go Pro</a>
+          </article>
+        </div>
+        <p class="note">
+          * Student & corporate discounts available. Prices inclusive of taxes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section section--tinted">
+      <div class="container">
+        <div class="section-head">
+          <h2>Inside the <span class="accent">gym</span></h2>
+          <p>A peek into our space, equipment, and classes.</p>
+        </div>
+        <div class="masonry">
+          <img
+            src="https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?q=80&w=1200&auto=format&fit=crop"
+            alt="Gym 1"
+            loading="lazy"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?q=80&w=1200&auto=format&fit=crop"
+            alt="Gym 2"
+            loading="lazy"
+          />
+
+          <img
+            src="https://images.unsplash.com/photo-1570829460005-c840387bb1ca?q=80&w=1200&auto=format&fit=crop"
+            alt="Gym 4"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta-inner">
+        <h2>Book a free <span class="accent">trial session</span> this week</h2>
+        <a href="#contact" class="btn btn--light">Book Now</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Let’s talk <span class="accent">goals</span></h2>
+          <p>Send a message and our team will contact you within 24 hours.</p>
+        </div>
+        <form
+          class="card form"
+          action="https://formspree.io/f/xqalnozj"
+          method="POST"
+        >
+          <div class="form-grid">
+            <label
+              >Full name
+              <input
+                required
+                name="name"
+                type="text"
+                placeholder="Rishi Chandra"
+              />
+            </label>
+            <label
+              >Email
+              <input
+                required
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+              />
+            </label>
+            <label
+              >Phone
+              <input name="phone" type="tel" placeholder="+91-000000000" />
+            </label>
+            <label
+              >Goal
+              <select name="goal">
+                <option>Weight Loss</option>
+                <option>Muscle Gain</option>
+                <option>Endurance</option>
+                <option>General Fitness</option>
+              </select>
+            </label>
+            <label class="full"
+              >Message
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Tell us a bit about your goals…"
+              ></textarea>
+            </label>
+          </div>
+          <button class="btn btn--primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#" class="logo logo--footer"
+            ><span class="logo-mark">PF</span
+            ><span class="logo-text">Rishi's</span></a
+          >
+          <p>
+            We’re a community-first fitness club in Bhopal — helping you build
+            strength, confidence, and healthy habits.
+          </p>
+        </div>
+        <nav>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h4>Visit us</h4>
+          <p>LNCT Area, Bhopal, MP 462021</p>
+          <p><a href="tel:+919876543210">+91 000000000</a></p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Rishi's Gym. All rights reserved.</span>
+      </div>
+    </footer>
+  </body>
+</html>
